@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>js player</title>
+</head>
+
+<body>
+    <main id="player">
+        <header>
+            <img src="img/logo.png" alt="">
+            <h2>LIVE RADIO</h2>
+            <p id="title_audio">Radio 1</p>
+        </header>
+        <div id="content">
+            <article id="buttons">
+                <img src="img/backwards.png" alt="" id="back">
+                <img src="img/play.png" alt="" id="play_pause_btn">
+                <img src="img/forward-button.png" alt="" id="next">
+                <audio src="music.mp3" id="audio_file"></audio>
+            </article>
+            <article id="Volume">
+                <h2>Volume</h2>
+                <input type="range" id="volume_range">
+                <h2>Speed</h2>
+                <input type="range" id="speed_range" max="200" min="0">
+            </article>
+            <article id="color">
+                <button id="color1"></button>
+                <button id="color2"></button>
+                <button id="color3"></button>
+                <button id="color4"></button>
+            </article>
+            <article id="download">
+                <img src="img/download.jpg" alt="">
+            </article>
+        </div>
+    </main>
+    <script src="script/script.js"></script>
+    <script src="script/volume.js"></script>
+    <script src="script/color.js"></script>
+</body>
+
+</html>
+
+</html>
